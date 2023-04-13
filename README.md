@@ -1,5 +1,5 @@
-# Mission-to-Mars
-Background
+### Mission-to-Mars
+# Background
 You’re now ready to take on a full web-scraping and data analysis project. You’ve learned to identify HTML elements on a page, identify their id and class attributes, and use this knowledge to extract information via both automated browsing with Splinter and HTML parsing with Beautiful Soup. You’ve also learned to scrape various types of information. These include HTML tables and recurring elements, like multiple news articles on a webpage.
 
 As you work on this Challenge, remember that you’re strengthening the same core skills that you’ve been developing until now: collecting data, organizing and storing data, analyzing data, and then visually communicating your insights.
@@ -29,13 +29,13 @@ As you work on this Challenge, remember that you’re strengthening the same cor
 
 * Assemble the scraped data into a Pandas DataFrame. The columns should have the same headings as the table on the website. Here’s an explanation of the column headings:
 
-id: the identification number of a single transmission from the Curiosity rover terrestrial_date: the date on Earth
-sol: the number of elapsed sols (Martian days) since Curiosity landed on Mars
-ls: the solar longitude
-month: the Martian month
-min_temp: the minimum temperature, in Celsius, of a single Martian day (sol)
-pressure: The atmospheric pressure at Curiosity's location
-Examine the data types that are currently associated with each column. If necessary, cast (or convert) the data to the appropriate datetime, int, or float data types.
+ 1. id: the identification number of a single transmission from the Curiosity rover terrestrial_date: the date on Earth
+ 2. sol: the number of elapsed sols (Martian days) since Curiosity landed on Mars
+ 3. ls: the solar longitude
+ 4. month: the Martian month
+ 5. min_temp: the minimum temperature, in Celsius, of a single Martian day (sol)
+ 6. pressure: The atmospheric pressure at Curiosity's location
+ 7. Examine the data types that are currently associated with each column. If necessary, cast (or convert) the data to the appropriate datetime, int, or float data types.
 
 # Analyze your dataset by using Pandas functions to answer the following questions:
 * How many months exist on Mars?
